@@ -1,0 +1,20 @@
+.search__input {
+	margin-top: 0.5rem;
+	display: block;
+	width: 30rem;
+	padding: 0.8rem 2rem;
+	border-radius: 7px;
+	border: none;
+	font-family: inherit;
+	font-size: 1.2rem;
+	color: $white;
+	background-color: $primary;
+	transition: all 0.3s ease;
+}
+.search__input::placeholder {
+	font-weight: 500;
+}
+.search__input:focus {
+	color: #000;
+	background-color: $white;
+}

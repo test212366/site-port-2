@@ -1,0 +1,47 @@
+.image-slider {
+	max-width: 120rem;
+	text-align: center;
+}
+
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after {
+	color: #fff;
+	opacity: 0.4;
+	font-size: 2rem;
+}
+.img-slider {
+	border-radius: 9px;
+}
+#run-row {
+	padding: auto;
+	margin-bottom: 20px;
+}
+.background-img-slider {
+	width: 187px;
+	height: 260px;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	border-radius: 9px;
+	left: 6px;
+	background-image: linear-gradient(to bottom, rgba(#000, 0.5), rgba(#000, 0.2) 50%, rgba(#000, 0.5));
+}
+.background-img-slider:hover {
+	background-image: linear-gradient(to bottom, rgba(#000, 0.7), rgba(#000, 0.2) 50%, rgba(#000, 0.7));
+}
+.stories__title {
+	padding: 1.4rem 0 0 3rem;
+	font-size: 1.2rem;
+	color: $white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+.stories__date {
+	position: absolute;
+	bottom: 1rem;
+	right: 3rem;
+	font-size: 1.2rem;
+	color: $white;
+}

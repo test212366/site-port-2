@@ -1,0 +1,24 @@
+.header {
+	position: fixed;
+	background-color: $secondary;
+	width: calc(100% - #{$sidebar});
+	top: 0;
+	right: 0;
+	z-index: $z-index-sidebar;
+	box-shadow: 0 5px 22px rgba(0, 0, 0, 0.25);
+	transition: 0.3s ease all;
+}
+.header__wrapper {
+	position: relative;
+	max-width: 1250px;
+	margin: 0 auto;
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+}
+.header__center {
+	position: absolute;
+	top: 0;
+	left: 40%;
+	width: 300px;
+}

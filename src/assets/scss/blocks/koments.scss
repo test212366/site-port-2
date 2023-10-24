@@ -1,0 +1,59 @@
+.add-coment {
+	padding: 1.5rem 2rem;
+	margin: 0 auto 3rem auto;
+	background-color: $secondary;
+	border-radius: 5px;
+	box-shadow: 0 15px 25px rgba(#000, 0.45);
+	width: 100%;
+
+	&-area {
+		margin-top: 10px;
+		width: 92%;
+		height: 26px;
+		border: none;
+		background-color: transparent;
+		color: $white;
+		font-size: 1.5rem;
+		resize: none;
+
+		&::placeholder {
+			color: #d2d2d2;
+		}
+	}
+}
+.send-com {
+	width: 4.4rem;
+	height: 4.4rem;
+	border-radius: 30%;
+	cursor: pointer;
+	border: none;
+	background-color: $primary;
+	transition: 0.2s all ease;
+	&:hover {
+		background-color: rgba(59, 59, 59, 0.521);
+	}
+}
+.err-com {
+	font-size: 2rem;
+}
+.coment-item {
+	margin: 4rem auto 0 auto;
+	background-color: #1c1c1c;
+	border-radius: 1rem;
+	-webkit-box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.2);
+	min-height: 8rem;
+	max-width: 97%;
+}
+.coment-body {
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+.coment-date {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 0.5rem;
+	font-size: 1.3rem;
+}

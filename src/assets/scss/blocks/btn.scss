@@ -1,0 +1,20 @@
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 1.2rem;
+	padding: 1.1em 2.1em;
+	border-radius: 3em;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: $white;
+	background-color: rgba(0, 0, 0, 0.384);
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+	transition: 0.4s all ease;
+}
+.btn:hover {
+	background-color: #fff;
+	color: #000;
+}
